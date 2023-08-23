@@ -1,0 +1,172 @@
+body{
+    background-color: hsl(217, 100%, 97%);
+}
+h4{
+    margin: 0;
+}
+main{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 1%;
+    background-color: hsl(0, 0%, 100%);
+    /* box-shadow: 0.1px 0.01px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#image-section{
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    background: url(download1.jpg);
+    background-size: cover;
+    border-radius: 4px;
+}
+#content-holder{
+    width: 100%;
+    height: 45%;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+#first-step,#second-step,#third-step,#fourth-step{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 33%;
+}
+.number{
+    width: 16%;
+    height: 50%;
+    border-radius: 50%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid hsl(0, 0%, 100%);
+    font-size: x-small;
+    margin-top: 10%;
+}
+.description{
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: 5%;
+    color: hsl(0, 0%, 100%);
+}
+.description h5{
+    font-size: 0.6em;
+    margin-bottom: 0;
+    color: hsl(231, 11%, 63%);
+    opacity: 0.8;
+}
+.description h6{
+    margin-top: 0;
+}
+p{
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-top: 0;
+    opacity: 0.5;
+}
+#actual-form h2{
+    color: hsl(213, 96%, 18%) ;
+}
+#form-section{
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 6%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#actual-form{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#title{
+    width: 100%;
+    height: 19%;
+    box-sizing: border-box;
+}
+h2{
+    font-size: large;
+    margin-bottom: 0;
+}
+#packages{
+    width: 100%;
+    height:47% ;
+    box-sizing: border-box;
+    display: flex;
+
+}
+#first-item,#second-item,#third-item{
+    width: 30%;
+    height: 90%;
+    box-sizing: border-box;
+    margin: 1.5%;
+    border-radius: 4px;
+    border: 1px solid black;
+    overflow: hidden;
+    padding: 10px;
+}
+#duration{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    background-color:  hsl(231, 100%, 99%);
+    border-radius: 4px;
+    margin-top: 1%;
+}
+#month{
+    margin-top: 1%;
+    margin-left: 30%;
+}
+#year{
+    margin-top: 1%;
+}
+#slider{
+    margin: 1.9% 3% 3% 3%;
+}
+
+#content-btn{
+    width: 100%;
+    height: 19%;
+    box-sizing: border-box;
+}
+button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    background-color: hsl(213, 96%, 18%);
+    width: 35%;
+}
+#back-btn{
+     position: relative;
+     top: 65%;
+     left:3%;
+}
+#next-btn{
+     position: relative;
+     top: 65%;
+    left: 30%;
+}
+button:hover{
+    color: hsl(213, 96%, 18%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.prices{
+    width: 100%;
+    height: 40%;
+}
+.icon{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}

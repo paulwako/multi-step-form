@@ -1,0 +1,115 @@
+body{
+    background-color: hsl(217, 100%, 97%);
+}
+main{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 1%;
+    background-color: hsl(0, 0%, 100%);
+    /* box-shadow: 0.1px 0.01px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#image-section{
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    background: url(download1.jpg);
+    background-size: cover;
+    border-radius: 4px;
+}
+#form-section{
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 6%;
+}
+#actual-form{
+    width: 100%;
+    height: 70%;
+    box-sizing: border-box;
+}
+#btn{
+   width: 100%;
+   height: 30%;
+   box-sizing: border-box;
+}
+
+button{
+    position: relative;
+    top: 60%;
+   left: 70%; 
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   padding: 10px;
+   border: none;
+   background-color: hsl(213, 96%, 18%);
+   color: hsl(0, 0%, 100%);
+   border-radius: 5px;
+}
+output{
+    color:  hsl(213, 96%, 18%);
+    font-size: 0.8em;
+}
+input{
+    width: 97%;
+    height: 15%;
+    border-radius: 5px;
+    box-shadow: 0px 0.01px;
+    border: 1px solid lightgray;
+}
+input:hover{
+    border: 1px solid black;
+}
+
+#content-holder{
+    width: 100%;
+    height: 45%;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+#first-step,#second-step,#third-step,#fourth-step{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 33%;
+}
+.number{
+    width: 16%;
+    height: 50%;
+    border-radius: 50%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid hsl(0, 0%, 100%);
+    font-size: x-small;
+    margin-top: 10%;
+}
+.description{
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: 5%;
+    color: hsl(0, 0%, 100%);
+}
+.description h5{
+    font-size: 0.6em;
+    margin-bottom: 0;
+    color: hsl(231, 11%, 63%);
+    opacity: 0.8;
+}
+.description h6{
+    margin-top: 0;
+}
+p{
+    font-size: 0.7em;
+    font-weight: bold;
+    opacity: 0.5;
+}
+#actual-form h2{
+    color: hsl(213, 96%, 18%) ;
+}
